@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int a,b,big;
+int a,b,big,small;
 
 int main(){
     system("cls");
@@ -9,5 +9,7 @@ int main(){
     printf("\nEnter second number : ");
     scanf("%d", &b);
     big = (a>b)?a:b;
-    printf("\n\t>>>> %d Is greater number\n", big);
+    small = (a<b)?a:b;
+    printf("\n\t>>>> %d is greater number\n", big);
+    printf("\t>>>> %d is the smaller number\n", small);
 }

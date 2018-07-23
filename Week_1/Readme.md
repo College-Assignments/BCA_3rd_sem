@@ -1,4 +1,4 @@
-This week ~
+# This week ~
 
 1. Write a C program to find out larger/smaller number between the two given numbers [using & without using ternary operator].
 2. Write a C program to find out larger/smaller number among three given numbers [using & without using ternary operator].

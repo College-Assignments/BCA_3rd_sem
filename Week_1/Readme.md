@@ -20,16 +20,16 @@
 18. Binary to Octal / Decimal / Hex
 19. Decimal to Binary / Octal / Hex
 20. Write a C program to solve the series -
-    a. 1+2+3+4+....+n
-    b. 1-2+3-4.....up to nth number
-    c. 1+(1+2)+(1+2+3)+...up to nth number
-    d. A.P series
-    e. G.P series
-    f. 1+11+111+1111+.....up to nth number
-    g. 1+12+123+1234+....up to nth number
-    h. n!
-    i. ((1/2!)^n)+((2/3!)^n+(3/4!)^n+... up to nth number
-    j. (1^n/n)-(2n/n!)+(3n/n!)+...... up to nth number
+    a. 1+2+3+4+....+n  
+    b. 1-2+3-4.....up to nth number  
+    c. 1+(1+2)+(1+2+3)+...up to nth number  
+    d. A.P series  
+    e. G.P series  
+    f. 1+11+111+1111+.....up to nth number  
+    g. 1+12+123+1234+....up to nth number  
+    h. n!  
+    i. ((1/2!)^n)+((2/3!)^n+(3/4!)^n+... up to nth number  
+    j. (1^n/n)-(2n/n!)+(3n/n!)+...... up to nth number  
 
 
 ----

@@ -5,6 +5,7 @@
 #include<math.h>
 
 int x;
+double fact2();
 
 void series_1(){
 	int i,N,sum;
@@ -129,16 +130,30 @@ void series_10(){
 	printf("Factorial of %d is %d", n, fact);
 };
 
-void series_11(){
-
-};
+void series_11(){};
 
 void series_12(){
+	double n;
+	double i=0;
+	printf("\nEnter the Nth value : ");
+    scanf("%lf",&n);
+    double sum=0;
+    for(i=1;i<=n;i++){
+        sum=(sum+pow(i,i))/fact2(&i);
+    }
+    printf("\nSum of this series is : %lf", sum);
+}
+
+double fact2(double* n){
+	double c,fact=1;
+	for (c = 1; c <= *n; c++){
+		fact = fact * c;}
+	return fact;
 };
 
 int main(void){
 	startAgain:
-	printf("\n\n\n\t1. 1+2+3+4+....+n\n\t2. 1-2+3-4.....up to nth number\n\t3. 1+(1+2)+(1+2+3)+(1+2+3+4)....up to nth number\n\t4. A.P series\n\t5. G.P Series\n\t6. 1+11+111+1111+.....up to nth number\n\t7. 1+12+123+1234+....up to nth number\n\t8. 0.1+0.11+0.111+0.1111.... up to nth number\n\t9. 0.1+0.12+0.123+0.1234.... up to nth number\n\t10. n!\n\t11. ((1/2!)^n)+((2/3!)^n+(3/4!)^n+... up to nth number\n\t12. (1^n/n)-(2n/n!)+(3n/n!)+...... up to nth number\n\t0. Exit\n\n");
+	printf("\n\n\n\t1. 1+2+3+4+....+n\n\t2. 1-2+3-4.....up to nth number\n\t3. 1+(1+2)+(1+2+3)+(1+2+3+4)....up to nth number\n\t4. A.P series\n\t5. G.P Series\n\t6. 1+11+111+1111+.....up to nth number\n\t7. 1+12+123+1234+....up to nth number\n\t8. 0.1+0.11+0.111+0.1111.... up to nth number\n\t9. 0.1+0.12+0.123+0.1234.... up to nth number\n\t10. n!\n\t11. ((1/2!)^n)+((2/3!)^n+(3/4!)^n+... up to nth number\n\t12. (1^n/n!)-(2n/n!)+(3n/n!)+...... up to nth number\n\t0. Exit\n\n");
 	printf("\tEnter your choice to continue : ");
 	scanf("%d", &x);
 	printf("\n\n");

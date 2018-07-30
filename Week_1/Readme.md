@@ -19,7 +19,7 @@
 17. Write a C program to find out GCD/HCF & LCM of given numbers.
 18. Binary to Octal / Decimal / Hex
 19. Decimal to Binary / Octal / Hex
-20. Write a C program to solve the series -
+20. Write a C program to solve the series -  
     a. 1+2+3+4+....+n  
     b. 1-2+3-4.....up to nth number  
     c. 1+(1+2)+(1+2+3)+...up to nth number  

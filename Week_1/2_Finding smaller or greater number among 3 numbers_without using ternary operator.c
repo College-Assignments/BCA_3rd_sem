@@ -15,27 +15,23 @@ int main(){
         if(a>c){
             big=a;
         }else{
-            big=c;
-        }
+            big=c;}
     }else{
         if(b>c){
             big=b;
         }else{
-            big=c;
-        }
+            big=c;}
     }
     if (a<b) {
         if(a<c){
             small=a;
         }else{
-            small=c;
-        }
+            small=c;}
     }else{
         if(b<c){
             small=b;
         }else{
-            small=c;
-        }
+            small=c;}
     }
     printf("\n\t>>> %d here is the greater number");
     return 0;
